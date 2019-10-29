@@ -57,7 +57,7 @@
     <Collapse {dropOpen} navbar expand="md" on:update={handleUpdate}>
       <Nav class="ml-auto" navbar>
         <NavItem>
-          <NavLink href="https://github.com/ejolly/create-svelte-app"><i class="fab fa-github"></i></NavLink>
+          <NavLink href="https://github.com/ejolly/svelte-turk"><i class="fab fa-github"></i></NavLink>
         </NavItem>
         <UncontrolledDropdown nav inNavbar>
           <DropdownToggle nav caret>Options</DropdownToggle>
