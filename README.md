@@ -1,5 +1,9 @@
 # Svelte-Turk
 
+## 🚧 Work in Progress 🚧
+
+## Assistance Welcome 💻
+
 [Svelte](https://svelte.dev/) app for interacting with Amazon's Mechanical Turk and storing data in Firebase. Designed to be lightweight, offering a way to store data and interact with Mturk without all the complications of setting up a backend or database server. Hopefully this can grow into a viable simple alternative to something like [PsiTurk](https://psiturk.org/) + [JsPsych](https://www.jspsych.org/).  
 
 - AWS has more-or-less unified their [APIs](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/) (including Mturk) and make much of their functionality available on the browser-side.   
@@ -9,9 +13,13 @@
 
 This project is inspired by the server-less [JAMStack](https://jamstack.org/) architecture philosophy 
 
- ## 🚧 Work in Progress 🚧
+## Intended Usage
 
- ## Assistance Welcome 💻
+The project can provide a single static web-app that should be able to plug in to pretty much any other setup. That's because after a Svelte project is build, it produces just 3 files needed to run *everything*: `index.html`, `bundle.js`, and `bundle.css`. In theory you should be able to drop these files into any existing project (probably renaming `index.html` or something like `admin.html`) and then have a full adminstrative interface whenever you navigate to `youproject.com/admin`.
+
+One way to try this out to is create a web-app/experiment with the [Svelte app project starter](https://github.com/ejolly/create-svelte-app) and then integrating it with svelte-turk.
+
+## Developing
 
 1. Install [npm](https://www.npmjs.com/get-npm) (if you don't have it)
 2. Fork to your account on github
